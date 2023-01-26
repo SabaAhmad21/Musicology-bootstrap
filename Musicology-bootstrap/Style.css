@@ -1,0 +1,483 @@
+*{
+    box-sizing: border-box;   
+}
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+p{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/*
+Header-area
+*/
+#header-area{
+    width: 100%;
+    margin: 0;
+}
+
+
+
+/*
+MAin-Menu
+*/
+#main-menu{
+    
+}
+#main-menu ul{
+  margin: 0 280px;
+  list-style: none;
+}
+
+
+.column-md-2 a img{
+    margin: 10px;
+    margin-left: 60px;
+}
+
+#main-menu ul li{
+    display: inline-block;
+    
+}
+#main-menu ul li a{
+  font-family: oswald;
+  display: block; 
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#main-menu ul li a:hover{
+    color: #e8631c;
+    
+  }
+
+.column-md-2 i{
+    
+    margin-top: 25px;
+    font-size:20px;
+    color: rgb(255, 255, 255);
+}
+header .row{
+    background-color: rgb(43, 43, 43);
+}
+.hero-banner img{
+    width: 100%;
+    position: relative;
+}
+.details{
+    position: absolute;
+    top: 440px;
+    left: 100px;
+    max-width: 530px;
+    color: #fff;
+}
+.details h1{
+    font-size: 80px;
+    font-family: oswald;
+}
+.details p{
+    font-size: 26px;
+    line-height: 1.3em;
+    font-family: Montserrat;
+}
+.details a{
+  background-color: #e8631c; 
+  color: #fff;
+  font-size: 25px; 
+  font-weight: 400;
+  display: inline-block;
+  padding: 15px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: oswald;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.details a:hover{
+    
+}
+
+/*
+
+DANCE COURCE
+*/
+#dance-course{
+    
+    background-color: #e8631c;
+    padding: 70px 0px;
+  
+}
+#dance-course .column-md-12{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+ 
+}
+#dance-course .column-md-12 h1{
+    
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 50px;
+ 
+}
+#dance-course .column-md-12 p{
+    line-height: 1.3em;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 150px;
+    font-weight: 300;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+#dance-course .column-md-4{
+    background-color: rgb(50, 50, 50);
+    margin: 15px;
+    width: 350px;
+    
+
+}
+#dance-course .column-md-4 h3{
+  text-transform: uppercase;
+  padding: 30px 0px 0px 0px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#dance-course .column-md-4 p{
+   
+   padding: 0px 10px 10px 10px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2em;
+    text-align: center;
+    font-family: Montserrat;
+  }
+
+  /*
+  cource-price 
+  */
+
+#cource-price{
+    background-color: rgb(50, 50, 50);
+    padding: 70px 0px;  
+    align-items: center;
+}
+#cource-price .column-md-12{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+#cource-price .column-md-12 h1{
+    
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 50px;
+ 
+} 
+#cource-price .column-md-12 p{
+    line-height: 1.3em;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 150px;
+    font-weight: 300;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+
+#cource-price .column-md-4{
+    background-color: #e8631c;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: 30px;
+    padding: 30px 20px;
+    color: #fff;
+    border-radius:6px;
+}
+#cource-price .column-md-4 img{
+    padding: 40px;
+}
+#cource-price .column-md-4 h3{
+   text-transform: uppercase;
+   font-family: Oswald;
+}
+#cource-price .column-md-4 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat;
+ }
+ .course-details a{
+   display: inline-block;
+   background-color: rgb(54, 54, 54);
+   padding: 8px 86px;
+   border-radius: 4px;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ /*
+ dance-details
+ */
+ #dance-details{
+
+   background-color: #e8631c;
+   position: relative; 
+ }
+ #dance-details{
+    color: #fff;
+  
+ }
+ #dance-details .details-02 h3{
+   font-size: 60px;
+   text-transform: uppercase;
+   font-family: Oswald;
+   font-weight: 500;
+   padding: 300px 0px 0px 0px;
+   margin-left: -250px;
+ }
+
+ #dance-details .details-02 p{
+    padding:20px 60px 20px;
+    font-size: 25px;
+    line-height: 1.3em;
+    font-weight: 400;
+    font-family: Montserrat;
+  }
+
+  #dance-details .details-02 a{
+    padding: 15px 80px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: Oswald;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: rgb(54, 54, 54);
+  }
+
+ /*
+ dance-details
+ */
+ #best-dance{
+   background-color: #e8631c;
+   position: relative; 
+ }
+ #best-dance{
+    color: #fff;
+  
+ }
+ #best-dance .details-02 h3{
+   font-size: 60px;
+   text-transform: uppercase;
+   font-family: Oswald;
+   font-weight: 500;
+   padding: 300px 0px 0px 60px;
+ 
+ }
+
+ #best-dance .details-02 p{
+    padding:20px 60px 20px;
+    font-size: 25px;
+    line-height: 1.3em;
+    font-weight: 400;
+    font-family: Montserrat;
+  }
+ #best-dance .details-02 a{
+    padding: 15px 80px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: Oswald;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: rgb(54, 54, 54);
+  }
+
+  /*
+  statistics
+  */
+  
+  #statistics{
+    background-color: rgb(50, 50, 50);
+    padding: 70px 0px;  
+    align-items: center;
+}
+#statistics .column-md-12{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+#statistics .column-md-12 h1{
+    
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 50px;
+ 
+} 
+#statistics .column-md-12 p{
+    line-height: 1.3em;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 290px;
+    font-weight: 300;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+
+#statistics .col-md-4{
+    line-height: 1.3em;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#statistics .col-md-4 h1{
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 50px;
+}
+#statistics .col-md-4 p{
+    font-weight: 300;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+
+/*
+Herbert
+*/
+#Herbert img{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+#Herbert h1{
+   color: #fff;
+   text-align: center;
+   text-transform: uppercase;
+   font-family: oswald;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 0px 0px 300px;
+   
+}
+
+#Herbert p{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Montserrat;
+    padding: 600px 450px 0px;
+    line-height: 1.3em;
+    
+ }
+ /*
+ Subscribe
+ */
+
+ #subscribe{
+    background-color: #e8631c;
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+ }
+
+ #subscribe{
+    background-color: #e8631c;
+    padding: 100px;
+    text-align: center;
+ }
+ #subscribe h1{
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 500;
+    font-size: 50px;
+ }
+
+ #subscribe p{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Montserrat;
+    padding: 30px 100px;
+    line-height: 1.3em;
+    
+ }
+ #subscribe input{
+    text-decoration: none;
+    padding: 8px 80px;
+    border: none;
+    color: rgb(151, 151, 151);
+    font-family: Montserrat;
+    
+ }
+
+ #subscribe a{
+   display: inline-block;
+    font-family: oswald;
+    text-transform: uppercase;
+    padding: 6px 40px 10px;
+    color: #fff;
+    margin-left: -10px;
+    background-color: #303030
+ }
+ #subscribe .column-md-12{
+   width: 100%;
+  }
+
+  /*
+  footer
+  */
+footer{
+    background-color: #303030;
+    padding: 100px;
+    color: #fff;
+    list-style: none;
+}
+
+footer p{
+   font-family: Montserrat;
+   font-size: 20px;
+   width: 450px;
+   line-height: 1.3em;
+}
+footer ul{
+   margin-left: -40px;
+ }
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+ }
+ footer h1,h3{
+    text-transform: uppercase;
+    font-family: oswald;
+ }
